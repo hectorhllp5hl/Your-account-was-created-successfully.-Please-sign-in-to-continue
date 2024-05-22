@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundación SCP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2b2b2b;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 2em;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        footer {
+            background-color: #2b2b2b;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Fundación SCP</h1>
+</header>
+
+<nav>
+    <a href="#scp-que-es">¿Qué es SCP?</a>
+    <a href="#anomalias">Anomalías</a>
+    <a href="#historia">Historia</a>
+</nav>
+
+<div class="container">
+    <section id="scp-que-es" class="section">
+        <h2>¿Qué es SCP?</h2>
+        <p>La Fundación SCP es una organización ficticia documentada por la comunidad en línea en forma de un sitio colaborativo de ficción. Su objetivo es asegurar, contener y proteger entidades, objetos y fenómenos anómalos que violan las leyes naturales conocidas.</p>
+    </section>
+
+    <section id="anomalias" class="section">
+        <h2>Anomalías</h2>
+        <p>Las anomalías son objetos, entidades o fenómenos que muestran propiedades o comportamientos inexplicables por la ciencia actual. La Fundación SCP categoriza y documenta estas anomalías para contenerlas y proteger a la humanidad de sus efectos potencialmente peligrosos.</p>
+    </section>
+
+    <section id="historia" class="section">
+        <h2>Historia de la Fundación SCP</h2>
+        <p>La Fundación SCP se originó en 2007 en el sitio de colaboración anónima 4chan, donde se publicaron los primeros artículos sobre objetos y fenómenos anómalos. La idea se expandió rápidamente y se trasladó a su propio sitio web, donde una comunidad global de escritores y entusiastas continúa creando y manteniendo un extenso archivo de relatos e informes sobre anomalías.</p>
+    </section>
+</div>
+
+<footer>
+    <p>Contacto: info@scp-foundation.org</p>
+    <p>&copy; 2024 Fundación SCP. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
